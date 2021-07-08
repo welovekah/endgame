@@ -1,0 +1,94 @@
+{
+	"Actor": {
+		"types": ["player", "npc"],
+		"templates": {
+			"common": {
+				"stats": {
+					"str": {
+						"base": 1,
+						"job": 1
+					},
+					"dex": {
+						"base": 1,
+						"job": 1
+					},
+					"con": {
+						"base": 1,
+						"job": 1
+					},
+					"mag": {
+						"base": 1,
+						"job": 1
+					},
+					"spr": {
+						"base": 1,
+						"job": 1
+					},
+					"luk": {
+						"base": 1,
+						"job": 1
+					},
+					"int": {
+						"base": 1,
+						"job": 1
+					},
+					"wis": {
+						"base": 1,
+						"job": 1
+					},
+					"cha": {
+						"base": 1,
+						"job": 1
+					},
+				},
+				"resources": {
+					"hp": {
+						"min": 0,
+						"value": 10,
+						"max": 10
+					},
+					"mp": {
+						"min": 0,
+						"value": 1,
+						"max": 3
+					}
+				},
+				"job": "Jobless"
+			}
+		},
+		"player": {
+			"templates": ["common"]
+		},
+		"npc": {
+			"templates": ["common"]
+		}
+	},
+	"Item": {
+	  "types": ["job", "skill"],
+	  "templates": {
+		"rarity": {
+		  "rarity": "Common",
+		  "price": 20
+		}
+	  },
+	  "job": {
+		"tier": "basic",
+		"description": "",
+		"sound": "",
+		"str": 1,
+		"con": 1,
+		"dex": 1,
+		"mag": 1,
+		"spr": 1,
+		"luk": 1
+	  },
+	  "skill": {
+		"job": "",
+		"range": "",
+		"type": "",
+		"description": "",
+		"sound": "",
+		"cost": 0
+	  }
+	}
+}

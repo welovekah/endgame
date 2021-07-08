@@ -16,27 +16,6 @@
     "styles/system-styles-1.css",
     "styles/system-styles-2.css"
   ],
-  "packs": [
-    {
-      "name": "monsters",
-      "label": "My Monsters",
-      "path": "packs/monsters.db",
-      "entity": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "path": "packs/items.db",
-      "entity": "Item"
-    }
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
   "socket": false,
   "initiative": "1d20",
   "gridDistance": 1,
