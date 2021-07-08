@@ -43,7 +43,7 @@
   "gridUnits": "square",
   "primaryTokenAttribute": "resources.hp",
   "secondaryTokenAttribute": "resources.mp",
-  "url": "https://your/hosted/system/repo/",
-  "manifest": "https://your/hosted/system/repo/system.json",
-  "download": "https://your/packaged/download/archive.zip"
+  "url": "https://github.com/welovekah/endgame",
+  "manifest": "https://raw.githubusercontent.com/welovekah/endgame/master/system.json",
+  "download": "https://github.com/welovekah/endgame/archive/refs/heads/master.zip"
 }
